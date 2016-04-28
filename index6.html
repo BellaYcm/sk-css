@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        caption{
+            font-weight: bold
+        }
+        .back{
+            background-color: #e7e7e7;
+        }
+        table{
+            text-align: center;
+            border-collapse: collapse;
+        }
+        th,td{
+            width: 200px;
+            height: 50px;;
+            border: 1px solid #dddddd;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table>
+        <caption>运费详情</caption>
+        <thead class="back">
+        <th>区域</th>
+        <th>寄达地</th>
+        <th>首重（元/1000g）</th>
+        <th>续重（元/1000g）</th>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="2" class="back">一区</th>
+            <td>浙江、上海、江苏</td>
+            <td>6</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>江西、安徽</td>
+            <td>7</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th class="back">二区</th>
+            <td>吉林、黑龙江、云南</td>
+            <td>10</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th class="back">三区</th>
+            <td>新疆、西藏</td>
+            <td>15</td>
+            <td>10</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
