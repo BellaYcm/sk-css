@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        body{
+            height: 100%;
+            display: flex;
+            flex-flow:column;
+        }
+        .head ,.foot{
+            height: 100px;
+            border: 1px dotted green;
+        }
+        .body{
+            flex:1;
+            display: flex;
+        }
+        .side{
+            border: 1px dotted red;
+            width:200px;
+            margin-right: 10px;;
+        }
+        .main{
+            border: 1px dotted grey;
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="head">head <span>三行自适应布局</span></div>
+<div class="body">
+    <div class="side">content</div>
+    <div class="main">side</div>
+</div>
+<div class="foot">foot</div>
+<div></div>
+</body>
+</html>
